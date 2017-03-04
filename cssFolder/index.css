@@ -114,6 +114,11 @@
     margin-bottom: .04rem;
 }
 
+.music{
+    float: left;
+    border: 1px dotted #E5E5E5;
+}
+
 .content-top-container p,
 .content-below-container p {
     width: 100%;
