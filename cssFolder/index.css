@@ -103,17 +103,14 @@
     position: relative;
     float: left;
     width: 100%;
-    min-height: .2rem;
-    margin-top: .04rem;
+    min-height: .05rem;
+    margin-bottom: .04rem;
     padding: .04rem 0;
     background-color: #FFF;
     overflow: hidden;
     z-index: 5;
 }
 
-.content-below-container {
-    margin-bottom: .04rem;
-}
 
 .music{
     float: left;
