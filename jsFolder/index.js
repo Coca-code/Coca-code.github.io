@@ -4,7 +4,7 @@ $(document).ready(function() {
     //变量&DOM
     //-----------
     var oLoading = $(".loading");
-    var oContentPrint = $(".content-below-container");
+    var oContentPrint = $(".c-body");
     var oBtnPrint = $(".print");
 
     //打印函数
@@ -24,7 +24,7 @@ $(document).ready(function() {
         printHtml(_html);
     });
 
-    
+
 
 
 
