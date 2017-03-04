@@ -15,11 +15,12 @@ $(document).ready(function() {
         document.body.innerHTML = bodyHtml;
     };
 
-        oBody.click(function(event) {
+    oBtnPrint.click(function(event) {
         /* Act on the event */
         var event = window.event || event;
         event.preventDefault();
-        console.log("Body clicked!");
+        var _html = oBody.html();
+        printHtml(_html);
     });
 
 
