@@ -1,0 +1,215 @@
+.c-wrapper {
+    width: 100%;
+    min-height: .1rem;
+    padding-top: .04rem;
+    background-color: #E5E5E5;
+    overflow: hidden;
+    font-family: "Arial", "Microsoft YaHei", "黑体", sans-serif;
+    z-index: 1;
+}
+
+.c-header,
+.c-body,
+.c-footer {
+    width: 100%;
+    min-height: .2rem;
+    background-color: #FFF;
+    overflow: hidden;
+}
+
+.stamp {
+    position: relative;
+    display: inline-block;
+    width: 100;
+    height: 2.78184rem;
+    margin-left: .04rem;
+    margin-right: .04rem;
+    /*10px*/
+    padding: 0.07321rem;
+    background: white;
+    /*The stamp cutout will be created using crisp radial gradients*/
+    background: radial-gradient( transparent 0px, transparent 4px, white 4px, white);
+    /*reducing the gradient size*/
+    /*20px*/
+    background-size: 0.14641rem 0.14641rem;
+    /*Offset to move the holes to the edge*/
+    /*-10px*/
+    background-position: -0.07321rem -0.07321rem;
+}
+
+.stamp:after {
+    content: '';
+    position: absolute;
+    /*We can shrink the pseudo element here to hide the shadow edges*/
+    /*5px*/
+    left: 0.0366rem;
+    top: 0.0366rem;
+    right: 0.0366rem;
+    bottom: 0.0366rem;
+    /*Shadow - doesn't look good because of the stamp cutout. We can still move this into another pseudo element behind the .stamp main element*/
+    /*box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.5);*/
+    box-shadow: 0 0.04392rem 0.07321rem #999;
+    /*pushing it back*/
+    z-index: -1;
+}
+
+
+/*Some text*/
+
+.stamp:before {
+    content: "可口渴了's Blog ——Stay foolish,stay hungry！";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font: bold .1rem arial;
+    color: #5D5E5D;
+    line-height: 100%;
+    padding: .3rem;
+    font-weight: normal;
+}
+
+.stamp p {
+    width: 100%;
+    height: 2.78184rem;
+    top: 0;
+    right: .05rem;
+    bottom: .05rem;
+    left: .05rem;
+    margin: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.stamp p img {
+    width: 99.9%;
+    height: 2.78184rem;
+}
+
+
+/*.c-header {
+    background: gradient(linear, 29% 26%, 30% 76%, from(#0E990E), to(#4BE81C));
+    background: -webkit-gradient(linear, 29% 26%, 30% 76%, from(#0E990E), to(#4BE81C));
+    z-index: 4;
+}*/
+
+.c-body {
+    background-color: #E5E5E5;
+}
+
+.content-top-container,
+.content-below-container {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: .2rem;
+    margin-top: .04rem;
+    padding: .04rem 0;
+    background-color: #FFF;
+    overflow: hidden;
+    z-index: 5;
+}
+
+.content-below-container {
+    margin-bottom: .04rem;
+}
+
+.content-top-container p,
+.content-below-container p {
+    width: 100%;
+    color: red;
+    font-family: "Microsoft YaHei";
+    font-size: .1rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+.side-left-container {
+    float: left;
+    position: relative;
+    width: 2.8rem;
+    min-height: 2.8rem;
+    background-color: #FFF;
+    border-bottom: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    z-index: 666;
+}
+
+.c-footer {
+    float: left;
+    position: relative;
+    height: .38rem;
+    background-color: #FFF;
+    border-top: 1px solid #CCC;
+}
+
+.c-footer p {
+    width: 100%;
+    line-height: .38rem;
+    color: #5D5E5D;
+    font-family: 'Arial';
+    font-size: .1rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+/*#Loading-(Begin)
+-----------------------------------------------*/
+
+.loading {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 66;
+}
+
+.mask {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: rgba(255, 255, 255, 1);
+    z-index: 77;
+}
+
+.loading-text {
+    position: absolute;
+    width: 2.19619rem;
+    height:.36603rem;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    color: #5D5E5D;
+    font-size: .12rem;
+    z-index: 88;
+}
+
+
+/*#COMMON CSS
+-----------------------------------------------*/
+
+.SD {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    font: normal 16px/1 "Times New Roman", Times, serif;
+    color: black;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    -webkit-box-shadow: 1px 2px 3px 0 rgba(220, 220, 220, 1);
+    box-shadow: 1px 2px 3px 0 rgba(220, 220, 220, 1);
+}
+
+.BDS {
+    border-radius: .022rem;
+    -webkit-border-radius: .022rem;
+    -moz-border-radius: .022rem;
+    -ms-border-radius: .022rem;
+}

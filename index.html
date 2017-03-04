@@ -1,1 +1,69 @@
-Hello World
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Welcome to visit my page!</title>
+    <meta name="description" content="Coca-code's pages">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./cssFolder/common.css">
+    <link rel="stylesheet" href="./cssFolder/index.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <!-- Loading-(Begin) -->
+    <div class="loading">
+        <div class="mask"></div>
+        <p class="loading-text">
+            请稍等 ...
+        </p>
+    </div>
+    <!-- Loading-(End) -->
+    <div class="c-wrapper">
+        <!-- Header -->
+        <div class="stamp">
+            <!-- <img src="./imagesFolder/lifeFn-min.png" /> -->
+            <p>
+                <img class="BDS" src="./lifeFn-min.png" alt="">
+            </p>
+        </div>
+        <!-- Content -->
+        <div class="c-body">
+            <div class="content-top-container SD BDS">
+                    <audio autoplay="autoplay" controls="controls" loop="loop" preload="auto" src="//y.qq.com/portal/player.html">
+                        你的浏览器不支持audio标签啊
+                    </audio>
+            </div>
+            <div class="content-below-container SD BDS">
+                <p>below</p>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer class="c-footer SD BDS">
+            <p>@2017 Coca-code</p>
+        </footer>
+    </div>
+    <!-- Javascripts... -->
+    <script>
+    ! function() {
+        var width = document.documentElement.clientWidth;
+        var header = document.getElementsByTagName("head")[0];
+        var style = document.createElement("style");
+        style.innerHTML = "html{font-size: " + width / 10 + "px;}";
+        header.appendChild(style);
+    }()
+    </script>
+    <script src="//code.jquery.com/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="./jsFolder/index.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>
