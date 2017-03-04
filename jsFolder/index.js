@@ -4,7 +4,7 @@ $(document).ready(function() {
     //变量&DOM
     //-----------
     var oLoading = $(".loading");
-    var oBody = $(".c-body");
+    var oContentPrint = $(".content-below-container");
     var oBtnPrint = $(".print");
 
     //打印函数
@@ -15,13 +15,16 @@ $(document).ready(function() {
         document.body.innerHTML = bodyHtml;
     };
 
+    //打印
     oBtnPrint.click(function(event) {
         /* Act on the event */
         var event = window.event || event;
         event.preventDefault();
-        var _html = oBody.html();
+        var _html = oContentPrint.html();
         printHtml(_html);
     });
+
+    
 
 
 

@@ -98,6 +98,7 @@
 }
 
 .content-top-container,
+.general-info-container,
 .content-below-container {
     position: relative;
     float: left;
