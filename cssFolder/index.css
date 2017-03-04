@@ -122,10 +122,11 @@
 
 .print{
     float: right;
-    width: .36603rem;
-    height: .21962rem;
+    width: .35139rem;
+    height: .35139rem;
     margin-right: .04rem;
-    background-color: yellow;
+    background:url(../imgFolder/print-min.png)center center;
+    background-size: 100%;
     overflow: hidden;
 }
 
