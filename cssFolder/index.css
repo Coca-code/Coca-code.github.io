@@ -111,10 +111,16 @@
     z-index: 5;
 }
 
+.content-top-container{
+    height: .35139rem;
+    line-height: .35139rem;
+}
+
 
 .music{
     float: left;
     margin-left: .04rem;
+    line-height: .35139rem;
     border: 1px dotted #E5E5E5;
 }
 
