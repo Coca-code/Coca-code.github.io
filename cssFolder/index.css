@@ -125,7 +125,7 @@
     width: .35139rem;
     height: .35139rem;
     margin-right: .04rem;
-    background:url(../imgFolder/print-min.png)center center;
+    background:url(../imgFolder/print-min.png)no-repeat center center;
     background-size: 50%;
     overflow: hidden;
 }
