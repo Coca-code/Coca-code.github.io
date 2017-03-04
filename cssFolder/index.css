@@ -116,8 +116,19 @@
 
 .music{
     float: left;
+    margin-left: .04rem;
     border: 1px dotted #E5E5E5;
 }
+
+.print{
+    float: right;
+    width: .07321rem;
+    min-height: .04rem;
+    margin-right: .04rem;
+    background-color: yellow;
+    overflow: hidden;
+}
+
 
 .content-top-container p,
 .content-below-container p {
