@@ -130,7 +130,6 @@
 }
 
 
-.content-top-container p,
 .content-below-container p {
     width: 100%;
     color: red;
@@ -140,7 +139,7 @@
     text-align: center;
 }
 
-.side-left-container {
+/*.side-left-container {
     float: left;
     position: relative;
     width: 2.8rem;
@@ -149,7 +148,7 @@
     border-bottom: 1px solid #CCC;
     border-right: 1px solid #CCC;
     z-index: 666;
-}
+}*/
 
 .c-footer {
     float: left;
