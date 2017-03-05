@@ -99,7 +99,8 @@
 
 .content-top-container,
 .general-info-container,
-.content-below-container {
+.content-below-container,
+.info-list {
     position: relative;
     float: left;
     width: 100%;
@@ -147,6 +148,18 @@
     text-align: left;
     color: #333;
     margin-left: .04rem;
+}
+
+.info-list ul li{
+    float: left;
+    width: 100%;
+    min-height: .02rem;
+    overflow: hidden;
+}
+.list-info-left,
+.list-info-right{
+    float: left;
+    width: 50%;
 }
 
 .content-below-container p {
