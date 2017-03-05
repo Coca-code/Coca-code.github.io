@@ -118,8 +118,6 @@
 }
 
 .animation-element {
-    position: absolute;
-    left: .04rem;
     background-color: lightgreen;
 }
 
@@ -129,10 +127,9 @@
 
 .container {
     width: 1.75695rem;
-    min-height: 0.14641rem;
+    height: 0.14641rem;
     margin: 0 auto;
     background-color: skyblue;
-    overflow: hidden;
 }
 
 .stick {
