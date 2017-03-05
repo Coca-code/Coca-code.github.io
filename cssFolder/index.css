@@ -230,18 +230,18 @@
 .c-footer {
     float: left;
     position: relative;
-    height: .88rem;
+    height: 0.88rem;
     background-color: #FFF;
     border-top: 1px solid #CCC;
+    text-align: center;
 }
 
 .c-footer p {
-    width: 100%;
+    margin: 0 auto;
     color: #5D5E5D;
     font-family: 'Arial';
     font-size: .1rem;
     font-weight: normal;
-    text-align: center;
 }
 
 
@@ -313,8 +313,8 @@
 
 .container {
     float: left;
-    width: 0.87848rem
-    height:  0.8366rem;
+    width: 0.87848rem;
+    height: 0.8366rem;
     margin: 0 auto;
     z-index: 9999;
 }
