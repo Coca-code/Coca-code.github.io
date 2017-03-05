@@ -312,7 +312,7 @@
 -----------------------------------------------*/
 
 .container {
-    width: 0.87848rem;
+    width: 0.87848rem
     height:  0.8366rem;
     margin: 0 auto;
     z-index: 9999;
@@ -320,10 +320,10 @@
 
 .stick {
     display: inline-block;
-    width: .2196rem;
+    width: 0.21962rem;
     height: .01rem;
     background: blue;
-    margin-left: -0.05857re
+    margin-left: -0.05857rem;
 }
 
 .stick:nth-child(n) {
