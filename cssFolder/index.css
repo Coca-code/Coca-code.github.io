@@ -149,7 +149,7 @@
     padding-bottom: .04rem;
     text-align: center;
     color: #333;
-    border-bottom: 2px solid #333;
+    border-bottom: 1px solid #000;
 }
 
 .info-list ul{
@@ -178,7 +178,6 @@
 .list-info-left,
 .list-info-mid{
     border-left: 1px solid #E5E5E5;
-    background-color: #F2F2F2;
 }
 
 .list-info-right{
