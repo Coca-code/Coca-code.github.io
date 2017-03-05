@@ -165,14 +165,15 @@
 .project-list ul li p {
     float: left;
     width: 100%;
-    margin-left: .04ren line-height: 1.5em;
+    margin-left: .04rem;
+    line-height: 1.5em;
     font-size: .117rem;
 }
 
 .project-list ul li p.work-desc {
     background-color: #F2F2F2;
     padding-top: .1rem;
-    border-bottom: 1px sold #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
 }
 
 .project-list ul li p.work-desc:first-child{
