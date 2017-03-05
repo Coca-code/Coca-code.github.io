@@ -383,13 +383,14 @@
 .c-footer {
     float: left;
     position: relative;
-    min-height: .38rem;
+    height: .5rem;
     background-color: #FFF;
     border-top: 1px solid #5D5E5D;
     overflow: hidden;
 }
 
 .c-footer p {
+    float: left;
     width: 100%;
     color: #5D5E5D;
     font-family: 'Arial';
