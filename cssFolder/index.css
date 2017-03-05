@@ -232,6 +232,7 @@
 }
 
 .c-footer p {
+    float: left;
     margin: 0 auto;
     color: #5D5E5D;
     font-family: 'Arial';
@@ -308,9 +309,11 @@
     position: absolute;
     width: 0.87848rem;
     height: 0.8366rem;
-    margin: auto;
     left: 0;
     right: 0;
+    top:0;
+    bottom:0;
+    margin: auto;
     z-index: 9999;
 }
 
