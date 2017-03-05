@@ -114,12 +114,18 @@
     margin-bottom: .04rem;
     padding: .04rem 0;
     background-color: #FFF;
-    font-size: .1rem;
     overflow: hidden;
     z-index: 5;
 }
 
-.content-project-container p, 
+.info-list p,
+.project-list p,
+.edu-list p,
+.myself-list p {
+    font-size: .1rem!important;
+}
+
+.content-project-container p,
 .content-edu-container p,
 .content-myself-container p {
     width: 100%;
@@ -152,6 +158,7 @@
     padding-bottom: .1rem;
     text-align: center;
     color: #333;
+    font-size: .13177rem;
     border-bottom: 1px solid #333;
     background-color: #FFF;
 }
@@ -197,13 +204,13 @@
 
 .project-list ul li p.work-desc:first-child,
 .edu-list ul li p.work-desc:first-child,
-.myself-list ul li p.work-desc:first-child{
+.myself-list ul li p.work-desc:first-child {
     margin-top: .1rem;
 }
 
 .project-list ul li p.work-desc:last-child,
 .edu-list ul li p.work-desc:last-child,
-.myself-list ul li p.work-desc:last-child{
+.myself-list ul li p.work-desc:last-child {
     margin-bottom: .1rem;
 }
 
@@ -253,7 +260,6 @@
     font-family: 'Arial';
     color: #5D5E5D;
 }
-
 
 .c-footer {
     float: left;
@@ -336,7 +342,7 @@
     -ms-border-radius: .022rem;
 }
 
-.FW{
+.FW {
     font-weight: 700;
 }
 
