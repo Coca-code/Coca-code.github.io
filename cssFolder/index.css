@@ -230,14 +230,13 @@
 .c-footer {
     float: left;
     position: relative;
-    height: .38rem;
+    height: .88rem;
     background-color: #FFF;
     border-top: 1px solid #CCC;
 }
 
 .c-footer p {
     width: 100%;
-    line-height: .38rem;
     color: #5D5E5D;
     font-family: 'Arial';
     font-size: .1rem;
