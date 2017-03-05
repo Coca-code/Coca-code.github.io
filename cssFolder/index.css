@@ -159,7 +159,7 @@
 }
 
 .info-list ul li:nth-child(even),
-.project-list ul li:nth-child(even) {
+.project-list ul li:nth-child(odd) {
     background-color: #F2F2F2;
 }
 
