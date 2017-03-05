@@ -102,9 +102,11 @@
 .general-info-container,
 .content-project-container,
 .content-edu-container,
+.content-myself-container,
 .info-list,
 .project-list,
-.edu-list {
+.edu-list,
+.myself-list {
     position: relative;
     float: left;
     width: 100%;
@@ -148,14 +150,16 @@
 
 .info-list ul,
 .project-list ul,
-.edu-list ul {
+.edu-list ul,
+.myself-list ul {
     width: 100%;
     margin-top: .04rem;
 }
 
 .info-list ul li,
 .project-list ul li,
-.edu-list ul li {
+.edu-list ul li,
+.myself-list ul li {
     float: left;
     width: 100%;
     min-height: .02rem;
@@ -167,7 +171,8 @@
 }
 
 .project-list ul li p,
-.edu-list ul li p {
+.edu-list ul li p,
+.myself-list ul li p {
     float: left;
     width: 100%;
     margin-left: .04rem;
@@ -176,19 +181,21 @@
 }
 
 .project-list ul li p.work-desc,
-.edu-list ul li p.work-desc {
+.edu-list ul li p.work-desc,
+.myself-list ul li p.work-desc {
     background-color: #F2F2F2;
     margin-left: .04rem;
-    border-bottom: 1px solid #E5E5E5;
 }
 
 .project-list ul li p.work-desc:first-child,
-.edu-list ul li p.work-desc:first-child{
+.edu-list ul li p.work-desc:first-child,
+.myself-list ul li p.work-desc:first-child{
     margin-top: .1rem;
 }
 
 .project-list ul li p.work-desc:last-child,
-.edu-list ul li p.work-desc:last-child{
+.edu-list ul li p.work-desc:last-child,
+.self-list ul li p.work-desc:last-child{
     margin-bottom: .1rem;
 }
 
@@ -240,7 +247,8 @@
 }
 
 .content-project-container p, 
-.content-edu-container p, {
+.content-edu-container p,
+.content-myself-container p {
     width: 100%;
     color: red;
     font-family: "Microsoft YaHei";
