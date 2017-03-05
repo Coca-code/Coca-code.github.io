@@ -149,8 +149,8 @@
     margin-right: .04rem;
     padding-bottom: .04rem;
     text-align: center;
-    color: #999;
-    border-bottom: 1px solid #000;
+    color: #333;
+    border-bottom: 1px solid #333;
 }
 
 .info-list ul{
@@ -178,8 +178,10 @@
 }
 .list-info-left,
 .list-info-mid{
-    border-left: 1px solid #E5E5E5;
+    border-right: 1px solid #E5E5E5;
 }
+
+
 
 .content-below-container p {
     width: 100%;
