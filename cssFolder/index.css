@@ -227,7 +227,7 @@
     position: relative;
     width: 100%;
     height: 0.64422rem;
-    padding:-top:.04rem;
+    padding: -top: .04rem;
     padding-bottom: .04rem;
     background-color: #FFF;
     text-align: center;
@@ -313,8 +313,8 @@
     height: 0.8366rem;
     left: 0;
     right: 0;
-    top:0;
-    bottom:0;
+    top: 0;
+    bottom: 0;
     margin: auto;
     z-index: 9999;
 }
@@ -460,5 +460,34 @@
         100% {
             opacity: 1;
         }
+    }
+}
+
+
+/*兼容
+------------------------------------*/
+
+@media only screen and (max-device-width: 640px),
+only screen and (max-device-width: 667px),
+only screen and (max-width: 480px) {
+    /*iphone 6*/
+    .container {
+        position: absolute;
+        width: 1rem;
+        left: 0;
+        right: 0;
+        top: .14rem;
+        bottom: 0;
+        margin: auto;
+        z-index: 9999;
+    }
+
+    .stick {
+        display: inline-block;
+        width: 0.21962rem;
+        height: .02rem;
+        background: blue;
+        margin-left: -0.1rem;
+        z-index: 99999;
     }
 }
