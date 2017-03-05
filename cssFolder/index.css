@@ -129,14 +129,13 @@
     width: 1.75695rem;
     height:  0.8366rem;
     margin: 0 auto;
-    background-color: skyblue;
     z-index: 9999;
 }
 
 .stick {
     display: inline-block;
     width: .2196rem;
-    height: 0.0366rem;
+    height: 0.02196rem;
     background: #5D5E5D;
     margin-left: -0.05857rem;
 }
