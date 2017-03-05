@@ -465,9 +465,23 @@
 }
 
 
-/*兼容
+/*#兼容处理
 ------------------------------------*/
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3) {
+    /*iphone 5 && 5s*/
+    .stick {
+        display: inline-block;
+        width: 0.21962rem;
+        height: .02rem;
+        background: blue;
+        margin-left: -0.14rem;
+        z-index: 99999;
+    }
 
+}
 
 @media only screen and (max-device-width: 640px),
 only screen and (max-device-width: 667px),
@@ -493,7 +507,7 @@ only screen and (max-width: 480px) {
         width: 0.21962rem;
         height: .02rem;
         background: blue;
-        margin-left: -0.1rem;
+        margin-left: -0.14rem;
         z-index: 99999;
     }
 }
