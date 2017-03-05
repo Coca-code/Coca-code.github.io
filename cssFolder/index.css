@@ -118,6 +118,16 @@
     z-index: 5;
 }
 
+.content-project-container p, 
+.content-edu-container p,
+.content-myself-container p {
+    width: 100%;
+    font-family: "Microsoft YaHei";
+    font-size: .1rem;
+    font-weight: normal;
+    text-align: center;
+}
+
 .content-top-container {
     position: relative;
     min-height: .35139rem!important;
@@ -242,15 +252,7 @@
     color: #5D5E5D;
 }
 
-.content-project-container p, 
-.content-edu-container p,
-.content-myself-container p {
-    width: 100%;
-    font-family: "Microsoft YaHei";
-    font-size: .1rem;
-    font-weight: normal;
-    text-align: center;
-}
+
 .c-footer {
     float: left;
     position: relative;
