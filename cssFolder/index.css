@@ -145,9 +145,10 @@
 .section-title{
     float: left;
     width: 100%;
+    margin-left: .04rem;
     text-align: left;
     color: #333;
-    margin-left: .04rem;
+    border-bottom: 2px solid #E5E5E5;
 }
 
 .info-list ul li{
@@ -160,10 +161,11 @@
 .list-info-right{
     float: left;
     width: 49.6%;
+    border-left: 1px solid #E5E5E5;
 }
 .list-info-left{
     margin-left: .04rem;
-    background-color: yellow;
+    background-color: #F2F2F2;
 }
 
 .list-info-right{
