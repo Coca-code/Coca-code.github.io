@@ -149,8 +149,8 @@
     margin-right: .04rem;
     padding-bottom: .04rem;
     text-align: center;
-    color: #333;
-    border-bottom: 1px solid #333;
+    color: #666;
+    border-bottom: 1px dotted #5D5E5D;
 }
 
 .info-list ul{
