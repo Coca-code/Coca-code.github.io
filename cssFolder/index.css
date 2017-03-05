@@ -164,6 +164,11 @@
     min-height: .02rem;
     overflow: hidden;
 }
+
+.info-list ul li:nth-child(even){
+    background-color: #F2F2F2;
+}
+
 .list-info-left,
 .list-info-mid,
 .list-info-right{
@@ -185,7 +190,8 @@
 }
 .list-info-left,
 .list-info-mid{
-    border-right: 1px dotted #E5E5E5;
+    padding-left: .04rem;
+    border-right: 1px solid #E5E5E5;
 }
 
 .list-info-left p,
@@ -193,7 +199,7 @@
 .list-info-right p,
 .list-info-email p{
     float: left;
-    line-height: 1.2em;
+    line-height: 1.5em;
     font-size: .117rem;
 }
 
