@@ -127,7 +127,7 @@
 
 .container {
     width: 1.75695rem;
-    height: 0.14641rem;
+    height:  0.0366rem;
     margin: 0 auto;
     background-color: skyblue;
 }
@@ -135,7 +135,7 @@
 .stick {
     display: inline-block;
     width: .2196rem;
-    height: .0146rem;
+    height: 0.0366rem;
     background: #5D5E5D;
     margin-left: -0.05857rem;
 }
