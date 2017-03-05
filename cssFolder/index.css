@@ -146,9 +146,10 @@
     float: left;
     width: 100%;
     margin-left: .04rem;
+    margin-right: .04rem;
     padding-bottom: .04rem;
     text-align: center;
-    color: #333;
+    color: #999;
     border-bottom: 1px solid #000;
 }
 
@@ -178,10 +179,6 @@
 .list-info-left,
 .list-info-mid{
     border-left: 1px solid #E5E5E5;
-}
-
-.list-info-right{
-    background-color: #CCC;
 }
 
 .content-below-container p {
