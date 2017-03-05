@@ -193,6 +193,7 @@
 .list-info-right p,
 .list-info-email p{
     float: left;
+    line-height: 1.2em;
     font-size: .117rem;
 }
 
