@@ -150,8 +150,8 @@
     margin-top: .04rem;
 }
 
-.info-list ul li ,
-.project-list  ul li{
+.info-list ul li,
+.project-list ul li {
     float: left;
     width: 100%;
     min-height: .02rem;
@@ -162,9 +162,16 @@
     background-color: #F2F2F2;
 }
 
-.project-list ul li.work-desc{
+.project-list ul li p {
+    float: left;
+    width: 100%;
+    margin-left: .04ren line-height: 1.5em;
+    font-size: .117rem;
+}
+
+.project-list ul li p.work-desc {
     background-color: #F2F2F2;
-    padding-top:.1rem;
+    padding-top: .1rem;
     padding-bottom: .1rem;
 }
 
