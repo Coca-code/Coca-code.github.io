@@ -172,7 +172,15 @@
 .project-list ul li p.work-desc {
     background-color: #F2F2F2;
     padding-top: .1rem;
-    padding-bottom: .1rem;
+    border-bottom: 1px sold #E5E5E5;
+}
+
+.project-list ul li p.work-desc:first-child{
+    margin-top: .1rem;
+}
+
+.project-list ul li p.work-desc:last-child{
+    margin-bottom: .1rem;
 }
 
 .list-info-left,
