@@ -159,7 +159,15 @@
 .list-info-left,
 .list-info-right{
     float: left;
-    width: 50%;
+    width: 49.6%;
+}
+.list-info-left{
+    margin-left: .04rem;
+    background-color: yellow;
+}
+
+.list-info-right{
+    background-color: #CCC;
 }
 
 .content-below-container p {
