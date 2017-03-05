@@ -136,27 +136,30 @@
 .section-title {
     float: left;
     width: 100%;
-    margin-left: .04rem;
-    margin-right: .04rem;
-    padding-bottom: .04rem;
+    padding-top: .1rem;
+    padding-bottom: .1rem;
     text-align: center;
     color: #333;
-    border-bottom: 1px dotted #5D5E5D;
+    border-bottom: 2px sold #333;
+    background-color: #FFF;
 }
 
-.info-list ul {
+.info-list ul,
+.project-list ul {
     width: 100%;
     margin-top: .04rem;
 }
 
-.info-list ul li {
+.info-list ul li ,
+.project-list  ul li{
     float: left;
     width: 100%;
     min-height: .02rem;
     overflow: hidden;
 }
 
-.info-list ul li:nth-child(even) {
+.info-list ul li:nth-child(even),
+.project-list ul li:nth-child(even) {
     background-color: #F2F2F2;
 }
 
