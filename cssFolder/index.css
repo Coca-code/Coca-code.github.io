@@ -294,6 +294,58 @@
 }
 
 
+/*#Clock-(Begin)
+-----------------------------------------------*/
+#warp{
+    width:1.46413rem;
+    height:1.46413rem;
+}
+#clock{
+    width:1.31772rem;
+    height:1.31772rem;
+    border-radius:0.73206rem;
+    border:.0366rem solid #f96;
+    background:white;
+    position:relative;
+}
+#number div{
+    position:absolute;
+    width:1.39092rem;
+    height:0.14641rem;
+    left:0.07321rem;
+    top:0.65886rem;
+}
+#number span{
+    display:block;
+    width:0.14641rem;
+    height:0.14641rem;
+}
+.pointer{
+    position:absolute;
+    bottom:0.65886rem;
+    transform-origin:50% 90%;
+    -webkit-transform-origin:50% 90%;
+}
+#houre{
+    width:0.0366rem;
+    height:0.43924rem;
+    left:0.71742rem;
+    background:black;
+}
+#minute{
+    width:0.02196rem;
+    height:0.51245rem;
+    left:0.72474rem;
+    background:gray;
+}
+#second{
+    width:1px;
+    height:0.58565rem;
+    left:0.73206rem;
+    background:red;
+}
+
+
 /*#COMMON CSS
 -----------------------------------------------*/
 
