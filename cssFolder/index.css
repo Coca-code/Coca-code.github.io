@@ -158,9 +158,14 @@
     overflow: hidden;
 }
 
-.info-list ul li:nth-child(even),
-.project-list ul li:nth-child(odd) {
+.info-list ul li:nth-child(even) {
     background-color: #F2F2F2;
+}
+
+.project-list ul li.work-desc{
+    background-color: #F2F2F2;
+    padding-top:.1rem;
+    padding-bottom: .1rem;
 }
 
 .list-info-left,
