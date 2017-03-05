@@ -228,11 +228,10 @@
 }*/
 
 .c-footer {
-    float: left;
+float: left;
     position: relative;
-    height: 0.88rem;
+    height: 0.28rem;
     background-color: #FFF;
-    border-top: 1px solid #CCC;
     text-align: center;
 }
 
@@ -312,10 +311,12 @@
 -----------------------------------------------*/
 
 .container {
-    float: left;
+    position: absolute;
     width: 0.87848rem;
     height: 0.8366rem;
-    margin: 0 auto;
+    margin: auto;
+    left: 0;
+    right: 0;
     z-index: 9999;
 }
 
