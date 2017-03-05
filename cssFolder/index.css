@@ -127,9 +127,10 @@
 
 .container {
     width: 1.75695rem;
-    height:  0.0366rem;
+    height:  0.8366rem;
     margin: 0 auto;
     background-color: skyblue;
+    z-index: 9999;
 }
 
 .stick {
