@@ -127,17 +127,20 @@
 /*#Animation-element-(Begin)
 -----------------------------------------------*/
 
-#container {
+.container {
     position: absolute;
     width: 1.75695rem;
-    top:0;
+    min-height: 20px;
+    top: .3rem;
     right: 0;
     bottom: 0;
-    left:0;
+    left: 0;
     margin: auto;
+    background-color: red;
+    overflow: hidden;
 }
 
-.stick{
+.stick {
     display: inline-block;
     width: .2196rem;
     height: .0146rem;
@@ -439,8 +442,6 @@
     font-size: .12rem;
     z-index: 88;
 }
-
-
 
 
 /*#COMMON CSS
