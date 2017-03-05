@@ -113,7 +113,7 @@
 
 .content-top-container {
     position: relative;
-    min-height: .35139rem;
+    min-height: .35139rem!important;
 }
 
 .music {
@@ -139,6 +139,14 @@
     background-size: 70%;
     overflow: hidden;
     cursor: pointer;
+}
+
+.section-title{
+    float: left;
+    width: 100%;
+    text-align: left;
+    color: #333;
+    margin-left: .04rem;
 }
 
 .content-below-container p {
