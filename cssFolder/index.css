@@ -119,6 +119,7 @@
 
 .music {
     position: absolute;
+    width: 30%;
     top: 0;
     bottom: 0;
     left: .04rem;
@@ -135,7 +136,7 @@
     right: .04rem;
     margin: auto;
     background: url(../imgFolder/print-min.png)no-repeat center center;
-    background-size: 50%;
+    background-size: 70%;
     overflow: hidden;
     cursor: pointer;
 }
