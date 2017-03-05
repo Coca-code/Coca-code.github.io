@@ -172,6 +172,13 @@
     
 }
 
+.list-info-email{
+    float: left;
+    width: 100%;
+    min-height: .02rem;
+    overflow: hidden;
+}
+
 .list-info-left{
     margin-left: .04rem;
 
@@ -183,20 +190,24 @@
 
 .list-info-left p,
 .list-info-mid p,
-.list-info-right p{
+.list-info-right p,
+.list-info-email p{
     float: left;
     font-size: .117rem;
 }
 
+
 .list-info-left p:first-child,
 .list-info-mid p:first-child,
-.list-info-right p:first-child{
+.list-info-right p:first-child,
+.list-info-email p:first-child{
     color: #666;
 }
 
 .list-info-left p:last-child,
 .list-info-mid p:last-child,
-.list-info-right p:last-child{
+.list-info-right p:last-child,
+.list-info-email p:last-child{
     color: #5D5E5D;
 }
 
