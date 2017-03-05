@@ -117,7 +117,7 @@
     min-height: .35139rem!important;
 }
 
-.music {
+.animation-element {
     position: absolute;
     width:2.92826rem;
     /*height: .73206rem;*/
@@ -125,7 +125,7 @@
     bottom: .04rem;
     left: .04rem;
     margin: auto;
-    border: 1px dotted #E5E5E5;
+    background-color: lightgreen;
 }
 
 .print {
