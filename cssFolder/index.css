@@ -146,9 +146,15 @@
     float: left;
     width: 100%;
     margin-left: .04rem;
-    text-align: left;
+    padding-bottom: .04rem;
+    text-align: center;
     color: #333;
     border-bottom: 2px solid #E5E5E5;
+}
+
+.info-list ul{
+    width: 100%;
+    margin-top: .04rem;
 }
 
 .info-list ul li{
