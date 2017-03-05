@@ -165,7 +165,8 @@
     width: 32.5%;
 }
 
-.list-info-email {
+.list-info-email,
+.list-info-phone {
     float: left;
     width: 100%;
     min-height: .02rem;
@@ -180,7 +181,8 @@
 .list-info-left p,
 .list-info-mid p,
 .list-info-right p,
-.list-info-email p {
+.list-info-email p,
+.list-info-phone p {
     float: left;
     line-height: 1.5em;
     font-size: .117rem;
@@ -189,14 +191,16 @@
 .list-info-left p:first-child,
 .list-info-mid p:first-child,
 .list-info-right p:first-child,
-.list-info-email p:first-child {
+.list-info-email p:first-child,
+.list-info-phone p:first-child {
     color: #333;
 }
 
 .list-info-left p:last-child,
 .list-info-mid p:last-child,
 .list-info-right p:last-child,
-.list-info-email p:last-child {
+.list-info-email p:last-child,
+.list-info-phone p:last-child {
     font-family: 'Arial';
     color: #5D5E5D;
 }
@@ -239,7 +243,7 @@
     font-family: 'Arial';
     font-size: .1rem;
     font-weight: normal;
-    padding-top:.04rem;
+    padding-top: .04rem;
 }
 
 
@@ -317,7 +321,7 @@
     bottom: 0;
     margin: auto;
     z-index: 9999;
-    padding-top:.8rem;
+    padding-top: .8rem;
 }
 
 .stick {
@@ -467,10 +471,8 @@
 
 /*#兼容处理
 ------------------------------------*/
-@media only screen
-and (min-device-width: 414px)
-and (max-device-width: 736px)
-and (-webkit-min-device-pixel-ratio: 3) {
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
     /*iphone 5 && 5s*/
     .stick {
         display: inline-block;
@@ -480,7 +482,6 @@ and (-webkit-min-device-pixel-ratio: 3) {
         margin-left: -0.14rem;
         z-index: 99999;
     }
-
 }
 
 @media only screen and (max-device-width: 640px),
@@ -490,7 +491,6 @@ only screen and (max-width: 480px) {
     .c-footer p {
         padding-top: .04rem;
     }
-
     .container {
         position: absolute;
         width: 1rem;
