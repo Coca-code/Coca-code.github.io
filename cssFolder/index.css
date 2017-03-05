@@ -128,15 +128,10 @@
 -----------------------------------------------*/
 
 .container {
-    position: absolute;
     width: 1.75695rem;
-    min-height: 20px;
-    top: .3rem;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    background-color: red;
+    min-height: 0.14641rem;
+    margin: 0 auto;
+    background-color: skyblue;
     overflow: hidden;
 }
 
@@ -391,14 +386,14 @@
 .c-footer {
     float: left;
     position: relative;
-    height: .38rem;
+    min-height: .38rem;
     background-color: #FFF;
-    border-top: 1px solid #CCC;
+    border-top: 1px solid #5D5E5D;
+    overflow: hidden;
 }
 
 .c-footer p {
     width: 100%;
-    line-height: .38rem;
     color: #5D5E5D;
     font-family: 'Arial';
     font-size: .1rem;
