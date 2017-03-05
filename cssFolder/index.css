@@ -101,8 +101,10 @@
 .content-top-container,
 .general-info-container,
 .content-project-container,
+.content-edu-container,
 .info-list,
-.project-list {
+.project-list,
+.edu-list {
     position: relative;
     float: left;
     width: 100%;
@@ -145,13 +147,15 @@
 }
 
 .info-list ul,
-.project-list ul {
+.project-list ul,
+.edu-list ul {
     width: 100%;
     margin-top: .04rem;
 }
 
 .info-list ul li,
-.project-list ul li {
+.project-list ul li,
+.edu-list ul li {
     float: left;
     width: 100%;
     min-height: .02rem;
@@ -162,7 +166,8 @@
     background-color: #F2F2F2;
 }
 
-.project-list ul li p {
+.project-list ul li p,
+.edu-list ul li p {
     float: left;
     width: 100%;
     margin-left: .04rem;
@@ -170,17 +175,20 @@
     font-size: .117rem;
 }
 
-.project-list ul li p.work-desc {
+.project-list ul li p.work-desc,
+.edu-list ul li p.work-desc {
     background-color: #F2F2F2;
     margin-left: .04rem;
     border-bottom: 1px solid #E5E5E5;
 }
 
-.project-list ul li p.work-desc:first-child{
+.project-list ul li p.work-desc:first-child,
+.edu-list ul li p.work-desc:first-child{
     margin-top: .1rem;
 }
 
-.project-list ul li p.work-desc:last-child{
+.project-list ul li p.work-desc:last-child,
+.edu-list ul li p.work-desc:last-child{
     margin-bottom: .1rem;
 }
 
@@ -231,7 +239,8 @@
     color: #5D5E5D;
 }
 
-.content-project-container p {
+.content-project-container p, 
+.content-edu-container p, {
     width: 100%;
     color: red;
     font-family: "Microsoft YaHei";
