@@ -135,9 +135,9 @@
 .stick {
     display: inline-block;
     width: .2196rem;
-    height: 0.02196rem;
-    background: #5D5E5D;
-    margin-left: -0.05857rem;
+    height: .01rem;
+    background: blue;
+    margin-left: -0.05857re
 }
 
 .stick:nth-child(n) {
@@ -386,12 +386,12 @@
     height: .5rem;
     background-color: #FFF;
     border-top: 1px solid #5D5E5D;
+    text-align: center;
     overflow: hidden;
 }
 
 .c-footer p {
     float: left;
-    width: 100%;
     color: #5D5E5D;
     font-family: 'Arial';
     font-size: .1rem;
