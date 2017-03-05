@@ -239,6 +239,7 @@
     font-family: 'Arial';
     font-size: .1rem;
     font-weight: normal;
+    padding-top:.04rem;
 }
 
 
@@ -316,6 +317,7 @@
     bottom: 0;
     margin: auto;
     z-index: 9999;
+    padding-top:.8rem;
 }
 
 .stick {
@@ -466,21 +468,26 @@
 /*兼容
 ------------------------------------*/
 
+
 @media only screen and (max-device-width: 640px),
 only screen and (max-device-width: 667px),
 only screen and (max-width: 480px) {
     /*iphone 6*/
+    .c-footer p {
+        padding-top: .04rem;
+    }
+
     .container {
         position: absolute;
         width: 1rem;
         left: 0;
         right: 0;
-        top: .14rem;
+        top: 0;
         bottom: 0;
         margin: auto;
         z-index: 9999;
+        padding-top: .5rem;
     }
-
     .stick {
         display: inline-block;
         width: 0.21962rem;
