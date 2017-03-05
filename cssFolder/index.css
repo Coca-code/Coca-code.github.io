@@ -191,13 +191,13 @@
 .list-info-left p:first-child,
 .list-info-mid p:first-child,
 .list-info-right p:first-child{
-    color: #5D5E5D;
+    color: #666;
 }
 
 .list-info-left p:last-child,
 .list-info-mid p:last-child,
 .list-info-right p:last-child{
-    color: #E5E5E5;
+    color: #5D5E5D;
 }
 
 
