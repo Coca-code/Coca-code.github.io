@@ -178,7 +178,13 @@
 }
 .list-info-left,
 .list-info-mid{
-    border-right: 1px solid #E5E5E5;
+    border-right: 1px dotted #E5E5E5;
+}
+
+.list-info-left p,
+.list-info-mid p,
+.list-info-right p{
+    float: left;
 }
 
 
