@@ -180,7 +180,8 @@
 }
 
 .project-list ul li p,
-.edu-list ul li p {
+.edu-list ul li p,
+.myself-list ul li p {
     float: left;
     width: 100%;
     margin-left: .04rem;
@@ -189,18 +190,21 @@
 }
 
 .project-list ul li p.work-desc,
-.edu-list ul li p.work-desc {
+.edu-list ul li p.work-desc,
+.myself-list ul li p.work-desc {
     background-color: #F2F2F2;
     margin-left: .04rem;
 }
 
 .project-list ul li p.work-desc:first-child,
-.edu-list ul li p.work-desc:first-child{
+.edu-list ul li p.work-desc:first-child,
+.myself-list ul li p.work-desc:first-child{
     margin-top: .1rem;
 }
 
 .project-list ul li p.work-desc:last-child,
-.edu-list ul li p.work-desc:last-child{
+.edu-list ul li p.work-desc:last-child,
+.myself-list ul li p.work-desc:last-child{
     margin-bottom: .1rem;
 }
 
