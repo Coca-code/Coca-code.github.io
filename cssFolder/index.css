@@ -181,17 +181,13 @@
     float: left;
     width: 100%;
     min-height: .02rem;
+    margin-left: .04rem;
     overflow: hidden;
 }
 
 .list-info-left{
     margin-left: .04rem;
 
-}
-.list-info-left,
-.list-info-mid{
-    padding-left: .04rem;
-    border-right: 1px solid #E5E5E5;
 }
 
 .list-info-left p,
@@ -201,6 +197,10 @@
     float: left;
     line-height: 1.5em;
     font-size: .117rem;
+}
+
+.list-info-email p{
+    font-family: 'Arial';
 }
 
 
