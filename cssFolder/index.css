@@ -171,8 +171,7 @@
 }
 
 .project-list ul li p,
-.edu-list ul li p,
-.myself-list ul li p {
+.edu-list ul li p {
     float: left;
     width: 100%;
     margin-left: .04rem;
@@ -181,21 +180,18 @@
 }
 
 .project-list ul li p.work-desc,
-.edu-list ul li p.work-desc,
-.myself-list ul li p.work-desc {
+.edu-list ul li p.work-desc {
     background-color: #F2F2F2;
     margin-left: .04rem;
 }
 
 .project-list ul li p.work-desc:first-child,
-.edu-list ul li p.work-desc:first-child,
-.myself-list ul li p.work-desc:first-child{
+.edu-list ul li p.work-desc:first-child{
     margin-top: .1rem;
 }
 
 .project-list ul li p.work-desc:last-child,
-.edu-list ul li p.work-desc:last-child,
-.self-list ul li p.work-desc:last-child{
+.edu-list ul li p.work-desc:last-child{
     margin-bottom: .1rem;
 }
 
@@ -250,25 +246,11 @@
 .content-edu-container p,
 .content-myself-container p {
     width: 100%;
-    color: red;
     font-family: "Microsoft YaHei";
     font-size: .1rem;
     font-weight: normal;
     text-align: center;
 }
-
-
-/*.side-left-container {
-    float: left;
-    position: relative;
-    width: 2.8rem;
-    min-height: 2.8rem;
-    background-color: #FFF;
-    border-bottom: 1px solid #CCC;
-    border-right: 1px solid #CCC;
-    z-index: 666;
-}*/
-
 .c-footer {
     float: left;
     position: relative;
