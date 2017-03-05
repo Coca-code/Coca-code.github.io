@@ -105,7 +105,7 @@
     width: 100%;
     min-height: .05rem;
     margin-bottom: .04rem;
-    
+    padding: .04rem 0;
     background-color: #FFF;
     overflow: hidden;
     z-index: 5;
@@ -113,16 +113,14 @@
 
 .content-top-container {
     position: relative;
-    /*height: .35139rem;
-    line-height: .35139rem;*/
-    padding: .04rem 0;
+    min-height: .35139rem;
 }
 
 .music {
     position: absolute;
     width: 30%;
-    top: 0;
-    bottom: 0;
+    top: .04rem;
+    bottom: .o4rem;
     left: .04rem;
     margin: auto;
     border: 1px dotted #E5E5E5;
