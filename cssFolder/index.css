@@ -11,7 +11,7 @@
 .content-edu-container p,.content-myself-container p,.content-project-container p{width:100%;font-family:Microsoft YaHei}
 .content-top-container{position:relative;min-height:.35139rem!important}
 .print{position:absolute;width:.35139rem;height:.35139rem;top:0;bottom:0;right:.04rem;margin:auto;background:url(../imgFolder/print-min.png) no-repeat center center;background-size:70%;overflow:hidden;cursor:pointer}
-.section-title{float:left;width:100%;padding-top:.1rem;padding-bottom:.1rem;text-align:center;color:#333;font-size:.13177rem;border-bottom:1px solid #333;background-color:#fff}
+.section-title{float:left;width:100%;padding-top:.1rem;padding-bottom:.1rem;text-align:center;color:#333;font-size:.13177rem;border-bottom:2px solid #333;background-color:#fff}
 .edu-list ul,.info-list ul,.myself-list ul,.project-list ul{width:100%;margin-top:.04rem}
 .edu-list ul li,.info-list ul li,.myself-list ul li,.project-list ul li{float:left;width:100%;min-height:.02rem;overflow:hidden}
 .info-list ul li:nth-child(even){background-color:#f2f2f2}
