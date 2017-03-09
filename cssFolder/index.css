@@ -1,11 +1,11 @@
-.c-wrapper{width:100%;min-height:.1rem;padding-top:.04rem;background-color:#e5e5e5;overflow:hidden;font-family:Arial,Microsoft YaHei,"黑体",sans-serif;z-index:1}
+.c-wrapper{width:100%;min-height:.1rem;padding-top:.04rem;background-color:#F9F9F9;overflow:hidden;font-family:Arial,Microsoft YaHei,"黑体",sans-serif;z-index:1}
 .c-body,.c-footer,.c-header{width:100%;min-height:.2rem;background-color:#fff;overflow:hidden}
 .stamp{position:relative;display:inline-block;width:100%;height:2.78184rem;margin-left:.04rem;margin-right:.04rem;padding:.07321rem;background:#fff;background:radial-gradient(transparent 0,transparent 4px,#fff 4px,#fff);background-size:.14641rem .14641rem;background-position:-.07321rem -.07321rem}
 .stamp:after{content:'';position:absolute;left:.0366rem;top:.0366rem;right:.0366rem;bottom:.0366rem;box-shadow:0 .04392rem .07321rem #999;z-index:-1}
 .stamp:before{content:"可口渴了's Blog ——Stay foolish,stay hungry！";position:absolute;bottom:0;left:0;font:700 .1rem arial;color:#5d5e5d;line-height:100%;padding:.3rem;font-weight:400}
 .stamp p{width:100%;height:2.78184rem;top:0;right:.05rem;bottom:.05rem;left:.05rem;margin:auto;background-size:100%;background-repeat:no-repeat;background-position:center center}
 .stamp p img{width:99.9%;height:2.78184rem}
-.c-body{background-color:#ccc;font-family:Microsoft YaHei}
+.c-body{background-color:#F9F9F9;font-family:Microsoft YaHei}
 .content-edu-container,.content-myself-container,.content-project-container,.content-top-container,.edu-list,.general-info-container,.info-list,.myself-list,.project-list{position:relative;float:left;width:100%;min-height:.05rem;margin-bottom:.04rem;padding:.04rem 0;background-color:#fff;overflow:hidden;z-index:5}
 .edu-list p,.info-list p,.myself-list p,.project-list p{font-size:.1rem!important}
 .content-edu-container p,.content-myself-container p,.content-project-container p{width:100%;font-family:Microsoft YaHei}
