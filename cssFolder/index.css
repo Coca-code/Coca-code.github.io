@@ -51,3 +51,4 @@ to{opacity:1}
 .container{position:absolute;width:1rem;left:0;right:0;top:0;bottom:0;margin:auto;z-index:9999;padding-top:.5rem}
 .stick{display:inline-block;width:.21962rem;height:.02rem;background:#00f;margin-left:-.14rem;z-index:99999}
 }
+.person-state{color:red!important;}
