@@ -10,8 +10,8 @@
 .info-list ul li{float:left;width:50%;background-color: #f4f4f4;} /*@@@@@@*/
 .content-edu-container p,.content-myself-container p,.content-project-container p{width:100%;font-family:Microsoft YaHei}
 .content-top-container{position:relative;min-height:.35139rem!important}
-.skill{float: left;width: .38rem;height: .38rem;border:1px solid #ccc;border-radius: 50%;margin-left: .05rem;background-color: #ccc;}
-.skill-squre{float: left;width: .8rem;height: .38rem;margin-left: .05rem;border:1px solid #ccc; background-color: #ccc;}
+.skill{float: left;width: .38rem;height: .38rem;border:1px solid #f0f0f0;border-radius: 50%;margin-left: .05rem;background-color: #ccc;}
+.skill-squre{float: left;width: .8rem;height: .38rem;margin-left: .05rem;border:1px solid #f0f0f0; background-color: #ccc;}
 .html5{background:url(../imgFolder/logo_html.jpg) no-repeat center center;background-size:100%;}
 .sass{background:url(../imgFolder/logo_sass.jpg) no-repeat center center;background-size:100%;}
 .es6{background:url(../imgFolder/logo_js.jpg) no-repeat center center;background-size:100%;}
@@ -28,12 +28,12 @@
 .edu-list ul li p.work-desc:last-child,.myself-list ul li p.work-desc:last-child,.project-list ul li p.work-desc:last-child{margin-bottom:.1rem}
 .project-list ul li p:last-child{margin-bottom: .681rem;}
 .list-info-left,.list-info-right{float:left;width:100%;}
-.list-info-email,.list-info-phone{float:left;width:100%;min-height:.02rem;margin-left:.04rem;overflow:hidden}
 .list-info-left{margin-left:.04rem}
-.list-info-left p:first-child,.list-info-right p:first-child{width:1.4rem;text-align:right;font-weight: 400;color:#5d5e5b;}/*Added by Mark.yin2018-2-10*/
+.list-info-left p:first-child,.list-info-right p:first-child{width:1.4rem;text-align:right;font-weight: 600;color:#5d5e5b;}/*Added by Mark.yin2018-2-10*/
 .list-info-email p,.list-info-left p,.list-info-phone p,.list-info-right p{float:left;line-height:1.5em;font-size:.2rem}
 .list-info-email p:first-child,.list-info-left p:first-child,.list-info-phone p:first-child,.list-info-right p:first-child{color:#5d5e5b;}
 .list-info-email p:last-child,.list-info-left p:last-child,.list-info-phone p:last-child,.list-info-right p:last-child{font-family:Arial;color:#5d5e5d;}
+.email{float:left;width:100%;height:.618rem;line-height:.618rem;text-align: center; background-color: lightyellow; font-weight: 600;}
 .c-footer{float:left;position:relative;width:100%;height:.64422rem;padding-top:.04rem;padding-bottom:.04rem;background-color:#fff;text-align:center}
 .c-footer p{margin:0 auto;color:#5d5e5d;font-family:Arial;font-size:.16rem;font-weight:400;padding-top:.04rem}
 .loading{position:absolute;width:100%;height:100%;z-index:66}
@@ -43,6 +43,7 @@
 .SD{box-sizing:content-box;border:none;font:400 1pc/1 "Times New Roman",Times,serif;color:#000;text-overflow:ellipsis;box-shadow:1px 2px 3px 0 #dcdcdc}
 .BDS{border-radius:.022rem;-webkit-border-radius:.022rem;-moz-border-radius:.022rem;-ms-border-radius:.022rem}
 .FW{font-weight:700;}
+.W750{width: 7.5rem!@important;}
 .container{position:absolute;width:.87848rem;height:.8366rem;left:0;right:0;top:0;bottom:0;margin:auto;z-index:9999;padding-top:.8rem}
 .stick{display:inline-block;width:.21962rem;height:.01rem;background:#00f;margin-left:-.07rem}
 .stick:nth-child(n){transform:rotate(30deg);-ms-transform:rotate(30deg);-webkit-transform:rotate(30deg);-moz-transform:rotate(30deg);-webkit-animation:fall 2s infinite;-moz-animation:fall 2s infinite}
