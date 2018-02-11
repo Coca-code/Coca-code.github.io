@@ -1,7 +1,7 @@
 .c-wrapper{width:100%;min-height:.1rem;background-color:#F9F9F9;overflow:hidden;font-family:Arial,Microsoft YaHei,"黑体",sans-serif;z-index:1}
 .c-body,.c-footer,.c-header{width:100%;min-height:.2rem;background-color:#fff;overflow:hidden}
 .stamp{position:relative;height:2.782rem;background:#fff;background:radial-gradient(transparent 0,transparent 4px,#fff 4px,#fff);background-size:.14641rem .14641rem;background-position:-.07321rem -.07321rem}
-.stamp:before{content:"可口渴了's Blog ——Stay foolish,stay hungry！";position:absolute;bottom:0;width:100%;font:100 .2rem arial;color:#fff;padding:.3rem;font-weight:100;}
+.stamp:before{content:"可口渴了's Blog ——Stay foolish,stay hungry！";position:absolute;bottom:0;width:100%;font:100 .2rem arial;color:#fff;padding:.3rem;font-weight:100;text-align: center;}
 .stamp p{width:7.5rem;height:2.78184rem;top:0;right:.05rem;bottom:.05rem;left:.05rem;margin:auto;background-size:100%;background-repeat:no-repeat;background-position:center center}
 .stamp>p>img{width:7.5rem;height:2.782rem}
 .c-body{background-color:#F9F9F9;font-family:Microsoft YaHei}
