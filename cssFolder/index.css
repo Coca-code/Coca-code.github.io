@@ -1,7 +1,7 @@
 .c-wrapper{width:100%;min-height:.1rem;background-color:#F9F9F9;overflow:hidden;font-family:Arial,Microsoft YaHei,"黑体",sans-serif;z-index:1}
 .c-body,.c-footer,.c-header{width:100%;min-height:.2rem;background-color:#fff;overflow:hidden}
-.stamp{position:relative;;width:7.5rem;height:2.782rem;background:#fff;background:radial-gradient(transparent 0,transparent 4px,#fff 4px,#fff);background-size:.14641rem .14641rem;background-position:-.07321rem -.07321rem}
-.stamp:before{content:"可口渴了's Blog ——Stay foolish,stay hungry！";position:absolute;bottom:0;left:0;font:700 .1rem arial;color:#5d5e5d;line-height:100%;padding:.3rem;font-weight:400}
+.stamp{position:relative;height:2.782rem;background:#fff;background:radial-gradient(transparent 0,transparent 4px,#fff 4px,#fff);background-size:.14641rem .14641rem;background-position:-.07321rem -.07321rem}
+.stamp:before{content:"可口渴了's Blog ——Stay foolish,stay hungry！";position:absolute;bottom:0;width:100%;font:100 .2rem arial;color:#fff;padding:.3rem;font-weight:100;}
 .stamp p{width:7.5rem;height:2.78184rem;top:0;right:.05rem;bottom:.05rem;left:.05rem;margin:auto;background-size:100%;background-repeat:no-repeat;background-position:center center}
 .stamp>p>img{width:7.5rem;height:2.782rem}
 .c-body{background-color:#F9F9F9;font-family:Microsoft YaHei}
@@ -40,7 +40,7 @@
 .mask{background:#fff;z-index:77}
 .loading-text,.mask{position:absolute;top:0;right:0;bottom:0;left:0;margin:auto;font-size: .28rem;}
 .loading-text{width:2.19619rem;height:.36603rem;text-align:center;color:#5d5e5d;font-size:.28rem;z-index:88}
-.SD{box-sizing:content-box;border:none;font:400 1pc/1 "Times New Roman",Times,serif;color:#000;text-overflow:ellipsis;box-shadow:1px 2px 3px 0 #dcdcdc}
+.SD{box-sizing:content-box;border:none;font:400 1pc/1 "Times New Roman",Times,serif;color:#000;text-overflow:ellipsis;box-shadow:1px 2px 3px 0 #dcdcdc;border-top:1px solid #f4f4f4;}
 .BDS{border-radius:.022rem;-webkit-border-radius:.022rem;-moz-border-radius:.022rem;-ms-border-radius:.022rem}
 .FW{font-weight:700;}
 .W750{width: 7.5rem!@important;}
