@@ -174,9 +174,9 @@ html,body{
 .icon-section-title{
     float: left;
     display: block;
-    width: .28rem;
-    height: .28rem;
-    margin-top: .03rem;
+    width: .2rem;
+    height: .2rem;
+    margin-top: .095rem;
     border-radius: 50%;
     background-color: #FF4777;
 }
