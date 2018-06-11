@@ -174,11 +174,11 @@ html,body{
 .icon-section-title{
     float: left;
     display: block;
-    width: .32rem;
-    height: .32rem;
+    width: .28rem;
+    height: .28rem;
     margin-top: .03rem;
     border-radius: 50%;
-    background-color: orange;
+    background-color: #FF4777;
 }
 
 .working-span{
