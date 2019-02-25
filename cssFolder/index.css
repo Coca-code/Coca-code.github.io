@@ -71,6 +71,13 @@ html,body{
 
 }
 
+.img-tongji{
+    width: 6rem;
+    height: 8rem;
+    background-size: 100%;
+    margin-left: .75rem;
+}
+
 /*.info-ul{
     padding-bottom:3.381rem;
 }*/
